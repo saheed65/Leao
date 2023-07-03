@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+h1,
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+p,
+a {
+  color: var(--DesaturatedBlue);
+}
+
+button {
+    width: 75%;
+    height: 43px;
+}
+@media (min-width: 768px) {
+    .img-adjust {
+        width: 300px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .text-adjust {
+        width: 50%;
+    }
+    button {
+        width: 200px;
+    }
+    .card {
+        width: 350px !important;
+    }
+    .text-adjustB {
+        width: 40%;
+    }
+}
+.sectionB {
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+.green-line {
+    width: 155px;
+}
+.sectionC {
+    background-color: var(--DesaturatedBlue);
+}
+.p-text {
+    color: var(--LightGrayishBlue);
+}
+footer {
+    background-color: var(--VeryDarkBlue);
+}
+@media (min-width: 992px) {
+    .img-adjust {
+        width: 500px;
+    }
+}
